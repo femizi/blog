@@ -1,0 +1,80 @@
+
+header{
+    background: "images/bg-pattern-intro.svg";
+}
+
+
+nav{
+    font-family: 'Overpass', sans-serif;
+}
+
+.navbar{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    margin: 10px;
+    
+}
+
+.login-buttons{
+    display: flex;
+    justify-content: space-around;
+}
+
+.headline{
+    display: flex;
+    justify-content: center;
+}
+.subheadline{
+    display: flex;
+    justify-content: center;
+}
+.cta-btns{
+    display: flex;
+    justify-content: center;
+}
+.btn1{
+    text-decoration: none;
+    margin: 10px;
+}
+.btn2{
+    text-decoration: none;
+    margin: 10px;
+}
+.btn3{
+    text-decoration: none;
+    margin: 10px;
+}
+
+.article{
+    font-family: Ubuntu;
+}
+div {
+    border: 1px solid red;
+}
+
+.dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f9f9f9;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+  .grow{
+      flex-grow: 1;
+
+  }
+
+h1,
+h2,
+h3,
+h4{
+    font: hsl(208, 49%, 24%);
+}
+
+.container{
+    display: flex;
+    flex-direction: column;
+}
